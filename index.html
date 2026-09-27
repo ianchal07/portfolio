@@ -1,753 +1,532 @@
-<html lang="en-US">
-
+<!doctype html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- SEO Meta Tags -->
-    <title>Anchal Sharma | Full-Stack Developer & Software Engineer Portfolio</title>
-    <meta name="description"
-        content="Portfolio of Anchal Sharma, Full-Stack Developer & Software Development Engineer. Explore my projects, skills, and experience in front-end, back-end, databases, and software development.">
-    <meta name="keywords"
-        content="Anchal Sharma, Full-Stack Developer, Software Engineer, Web Development, React, Next.js, Node.js, MongoDB, Java, Python, MySQL, Portfolio">
-    <meta name="author" content="Anchal Sharma">
-
-    <!-- Open Graph (Facebook & LinkedIn) -->
-    <meta property="og:title" content="Anchal Sharma | Full-Stack Developer Portfolio">
-    <meta property="og:description"
-        content="View my professional portfolio showcasing skills, projects, and experience in web and software development.">
-    <meta property="og:image" content="images/avatar.jpg">
-    <meta property="og:url" content="https://yourwebsite.com">
-    <meta property="og:type" content="website">
-
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="./images/favicon.png">
-
-    <!-- Fonts & Styles -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preload" as="style"
-        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800&display=swap">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800&display=swap">
-    <link href="./css/font-awesome/css/all.min.css" rel="stylesheet">
-    <link href="./css/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="./css/bootstrap.min.css" rel="stylesheet">
-    <link href="./css/aos.css" rel="stylesheet">
-    <link href="./css/main.css" rel="stylesheet">
-
-    <!-- Schema.org JSON-LD for Person -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "Anchal Sharma",
-      "jobTitle": "Full-Stack Developer & Software Engineer",
-      "url": "https://yourwebsite.com",
-      "sameAs": [
-        "https://www.instagram.com/ianchal07",
-        "https://www.linkedin.com/in/ianchal07/",
-        "https://github.com/ianchal07"
-      ]
-    }
-    </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Anchal Sharma | AI Engineer</title>
+  <meta name="description" content="Anchal Sharma is an AI engineer who builds AI that answers business questions from company data, checks its own answers, and is measured before it ships.">
+  <meta name="author" content="Anchal Sharma">
+  <meta property="og:title" content="Anchal Sharma | AI Engineer">
+  <meta property="og:description" content="AI that answers business questions from company data, checks its own work, and is tested before it ships.">
+  <meta property="og:image" content="https://ianchal07.github.io/portfolio/images/og-card.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Anchal Sharma, AI Engineer. I build AI that shows its work.">
+  <meta property="og:site_name" content="Anchal Sharma">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Anchal Sharma | AI Engineer">
+  <meta name="twitter:description" content="AI that answers business questions from company data, checks its own work, and is tested before it ships.">
+  <meta name="twitter:image" content="https://ianchal07.github.io/portfolio/images/og-card.jpg">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ianchal07.github.io/portfolio/">
+  <link rel="canonical" href="https://ianchal07.github.io/portfolio/">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,600;6..12,700;6..12,800;6..12,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Visitor stats (GoatCounter). Paste your GoatCounter code between the quotes,
+       e.g. content="anchal" for anchal.goatcounter.com. Leave empty to keep stats off. -->
+  <meta name="goatcounter" content="">
+  <script>
+    (function () {
+      document.documentElement.classList.add('js');
+      try {
+        var t = localStorage.getItem('theme');
+        if (t) document.documentElement.setAttribute('data-theme', t);
+      } catch (e) {}
+    })();
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Anchal Sharma",
+    "jobTitle": "AI Engineer",
+    "email": "mailto:areleanchal@gmail.com",
+    "sameAs": ["https://www.linkedin.com/in/ianchal07/", "https://github.com/ianchal07"]
+  }
+  </script>
 </head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
 
-<body id="top" data-aos-easing="ease-in-out" data-aos-duration="600" data-aos-delay="0">
-    <header class="bg-light">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="header-nav" role="navigation">
-            <div class="container"><a class="link-dark navbar-brand site-title mb-0" href="#">Ianchal07</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation"><span
-                        class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto me-2">
-                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <div class="page-content">
-        <div id="content">
-            <header>
-                <div class="cover bg-light">
-                    <div class="container px-3">
-                        <div class="row">
-                            <div class="col-lg-6 p-2"><img class="img-fluid" src="images/illustrations/hello3.svg"
-                                    alt="hello"></div>
-                            <div class="col-lg-6">
-                                <div class="mt-5">
-                                    <p class="lead text-uppercase mb-1">Hello!</p>
-                                    <h1 class="intro-title marker aos-init aos-animate" data-aos="fade-left"
-                                        data-aos-delay="50">I’m Anchal Sharma</h1>
-                                    <p class="lead fw-normal mt-3 aos-init aos-animate" data-aos="fade-up"
-                                        data-aos-delay="100">Full-Stack Developer &amp; Software Development Engineer
-                                    </p>
-                                    <div class="social-nav aos-init aos-animate" data-aos="fade-up"
-                                        data-aos-delay="200">
-                                        <nav role="navigation">
-                                            <ul class="nav justify-content-left">
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="#top">Anchal Sharma</a>
+      <nav aria-label="Main">
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#work">Work</a></li>
+          <li><a href="#evaluation">Evaluation</a></li>
+          <li><a href="#approach">How I work</a></li>
+          <li><a href="#experience">Journey</a></li>
+          <li id="nav-recognition" hidden><a href="#recognition">Awards</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="nav-actions">
+        <button class="icon-btn" id="theme-toggle" type="button" aria-label="Switch to dark theme">
+          <svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></svg>
+          <svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></svg>
+        </button>
+        <a class="btn btn-primary btn-small" href="Anchal_sharma_resume.pdf" download data-track="resume-download">Resume</a>
+        <button class="icon-btn menu-btn" id="menu-btn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
 
-
-                                                <li class="nav-item"><a class="nav-link"
-                                                        href="https://www.instagram.com/ianchal07" title="Instagram"><i
-                                                            class="fab fa-instagram"></i><span
-                                                            class="menu-title sr-only">Instagram</span></a></li>
-                                                <li class="nav-item"><a class="nav-link"
-                                                        href="https://www.linkedin.com/in/ianchal07/"
-                                                        title="LinkedIn"><i class="fab fa-linkedin"></i><span
-                                                            class="menu-title sr-only">LinkedIn</span></a></li>
-                                                <li class="nav-item"><a class="nav-link"
-                                                        href="https://github.com/ianchal07" title="GitHub"><i
-                                                            class="fab fa-github"></i><span
-                                                            class="menu-title sr-only">GitHub</span></a></li>
-                                            </ul>
-                                        </nav>
-                                    </div>
-                                    <div class="mt-3 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
-                                        <a class="btn btn-primary shadow-sm mt-1 hover-effect" href="#contact">Get In
-                                            Touch <i class="fas fa-arrow-right"></i></a>
-                                        <a class="btn btn-outline-secondary shadow-sm mt-1 hover-effect"
-                                            href="./Anchal_sharma_resume.pdf" download>Download Resume</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="wave-bg"></div>
-            </header>
-            <div class="section pt-4 px-3 px-lg-4" id="about">
-                <div class="container-narrow">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <h2 class="h4 my-2">Hello! I’m Anchal Sharma.</h2>
-                            <p>Innovative Programmer and Internet Entrepreneur striving to make the world a more unified
-                                and connected place. A creative thinker, adept in software development and working with
-                                various data structures. Committed to supporting the development of key strategic
-                                programs that result in the best consumer experiences possible. Knowledgeable in user
-                                interface, testing, and debugging processes. Bringing forth expertise in design,
-                                installation, testing and maintenance of web systems. Able to effectively self-manage
-                                during independent projects, as well as collaborate in a team setting. Proven efficiency
-                                with an ability to quickly learn and navigate any computer software program, or office
-                                filing system.
-                            </p>
-                            <div class="row mt-3">
-
-                                <div class="col-sm-2">
-                                    <div class="pb-1">Email:</div>
-                                </div>
-                                <div class="col-sm-10">
-                                    <div class="pb-1 fw-bolder">areleanchal@gmail.com</div>
-                                </div>
-                                <div class="col-sm-2">
-                                    <div class="pb-1">Address:</div>
-                                </div>
-                                <div class="col-sm-10">
-                                    <div class="pb-1 fw-bolder">Indore, India</div>
-                                </div>
-                                <div class="col-sm-2">
-                                    <div class="pb-1">Status:</div>
-                                </div>
-                                <div class="col-sm-10">
-                                    <div class="pb-1 fw-bolder">Available</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-5 offset-md-1 aos-init" data-aos="fade-left" data-aos-delay="100"><img
-                                id="avatar" class="avatar img-fluid mt-2" src="images/avatar0.jpg" width="400"
-                                height="400" alt="Anchal Sharma">
-                        </div> 
-                    </div>
-                </div>
-            </div>
-            <div class="section px-3 px-lg-4 pt-5" id="services">
-                <div class="container-narrow">
-                    <div class="text-center mb-5">
-                        <h2 class="marker marker-center">My Services</h2>
-                    </div>
-                    <div class="text-center">
-                        <p class="mx-auto mb-3" style="max-width:600px"> I offer services fit for any website or app. I
-                            can quickly maximize timely deliverables for real-time schemas.</p>
-                    </div>
-                    <div class="row py-3">
-                        <div class="col-md-3 text-center aos-init" data-aos="fade-up" data-aos-delay="100"><img
-                                class="mb-2" src="images/services/frontend.svg" width="96" height="96" alt="web design">
-                            <div class="h5">Front-End Development</div>
-                        </div>
-                        <div class="col-md-3 text-center aos-init" data-aos="fade-up" data-aos-delay="200"><img
-                                class="mb-2" src="images/services/backend.svg" width="96" height="96"
-                                alt="graphic design">
-                            <div class="h5">Backend Development</div>
-                        </div>
-                        <div class="col-md-3 text-center aos-init" data-aos="fade-up" data-aos-delay="300"><img
-                                class="mb-2" src="images/services/database.svg" width="96" height="96" alt="ui-ux">
-                            <div class="h5">Database Development</div>
-                        </div>
-                        <div class="col-md-3 text-center aos-init" data-aos="fade-up" data-aos-delay="400"><img
-                                class="mb-2" src="images/services/software.svg" width="96" height="96"
-                                alt="app development">
-                            <div class="h5">Software Development</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="section px-3 px-lg-4 pt-5" id="skills">
-                <div class="container-narrow">
-                    <div class="text-center mb-5">
-                        <h2 class="marker marker-center">My Skills</h2>
-                    </div>
-                    <div class="text-center">
-                        <p class="mx-auto mb-3" style="max-width:600px">I am a quick learner and specialize in multitude
-                            of skills required for Web Application Development and Software development</p>
-                    </div>
-                    <div class="bg-light p-3">
-                        <div class="row">
-                            <div class="col-md-5">
-                                <div class="py-1">
-                                    <div class="d-flex text-small fw-bolder"><span class="me-auto">HTML5 &
-                                            CSS</span></div>
-                                    <div class="progress my-1">
-                                        <div class="progress-bar bg-primary aos-init aos-animate" role="progressbar"
-                                            data-aos="zoom-in-right" data-aos-delay="100"
-                                            data-aos-anchor=".skills-section" style="width: 90%" aria-valuenow="90"
-                                            aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                                <div class="py-1">
-                                    <div class="d-flex text-small fw-bolder"><span class="me-auto">Cpp</span></div>
-                                    <div class="progress my-1">
-                                        <div class="progress-bar bg-primary aos-init aos-animate" role="progressbar"
-                                            data-aos="zoom-in-right" data-aos-delay="200"
-                                            data-aos-anchor=".skills-section" style="width: 75%" aria-valuenow="75"
-                                            aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                                <div class="py-1">
-                                    <div class="d-flex text-small fw-bolder"><span class="me-auto">JavaScript</span>
-                                    </div>
-                                    <div class="progress my-1">
-                                        <div class="progress-bar bg-primary aos-init aos-animate" role="progressbar"
-                                            data-aos="zoom-in-right" data-aos-delay="300"
-                                            data-aos-anchor=".skills-section" style="width: 80%" aria-valuenow="80"
-                                            aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                                <div class="py-1">
-                                    <div class="d-flex text-small fw-bolder"><span class="me-auto">React/Next</span>
-                                    </div>
-                                    <div class="progress my-1">
-                                        <div class="progress-bar bg-primary aos-init aos-animate" role="progressbar"
-                                            data-aos="zoom-in-right" data-aos-delay="300"
-                                            data-aos-anchor=".skills-section" style="width: 75%" aria-valuenow="75"
-                                            aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-
-                                <div class="py-1">
-                                    <div class="d-flex text-small fw-bolder"><span class="me-auto">MongoDB</span></div>
-                                    <div class="progress my-1">
-                                        <div class="progress-bar bg-primary aos-init aos-animate" role="progressbar"
-                                            data-aos="zoom-in-right" data-aos-delay="600"
-                                            data-aos-anchor=".skills-section" style="width: 65%" aria-valuenow="65"
-                                            aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="col-md-5 offset-md-2">
-                                <div class="py-1">
-                                    <div class="d-flex text-small fw-bolder"><span class="me-auto">Java</span></div>
-                                    <div class="progress my-1">
-                                        <div class="progress-bar bg-primary aos-init aos-animate" role="progressbar"
-                                            data-aos="zoom-in-right" data-aos-delay="400"
-                                            data-aos-anchor=".skills-section" style="width: 65%" aria-valuenow="65"
-                                            aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                                <div class="py-1">
-                                    <div class="d-flex text-small fw-bolder"><span class="me-auto">Python</span></div>
-                                    <div class="progress my-1">
-                                        <div class="progress-bar bg-primary aos-init aos-animate" role="progressbar"
-                                            data-aos="zoom-in-right" data-aos-delay="500"
-                                            data-aos-anchor=".skills-section" style="width: 75%" aria-valuenow="75"
-                                            aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                                <div class="py-1">
-                                    <div class="d-flex text-small fw-bolder"><span class="me-auto">MySQL</span></div>
-                                    <div class="progress my-1">
-                                        <div class="progress-bar bg-primary aos-init aos-animate" role="progressbar"
-                                            data-aos="zoom-in-right" data-aos-delay="600"
-                                            data-aos-anchor=".skills-section" style="width: 67%" aria-valuenow="67"
-                                            aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-
-                                <div class="py-1">
-                                    <div class="d-flex text-small fw-bolder"><span class="me-auto">Git</span></div>
-                                    <div class="progress my-1">
-                                        <div class="progress-bar bg-primary aos-init aos-animate" role="progressbar"
-                                            data-aos="zoom-in-right" data-aos-delay="600"
-                                            data-aos-anchor=".skills-section" style="width: 60%" aria-valuenow="60"
-                                            aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-
-                                <div class="py-1">
-                                    <div class="d-flex text-small fw-bolder"><span class="me-auto">Node Js</span></div>
-                                    <div class="progress my-1">
-                                        <div class="progress-bar bg-primary aos-init aos-animate" role="progressbar"
-                                            data-aos="zoom-in-right" data-aos-delay="600"
-                                            data-aos-anchor=".skills-section" style="width: 70%" aria-valuenow="70"
-                                            aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="section px-2 px-lg-4 pt-5" id="portfolio">
-                <div class="container">
-                    <div class="text-center mb-5">
-                        <h2 class="marker marker-center">Portfolio </h2>
-                    </div>
-                    <div class="grid bp-gallery pb-3 aos-init" data-aos="zoom-in-up" data-aos-delay="100"
-                        style="position: relative; height: 4418.86px;">
-                        <div class="grid-sizer"></div>
-                        <div class="grid-item" style="position: absolute; left: 0%; top: 0px;"><a
-                                href="https://dribbble.com">
-                                <figure class="portfolio-item"><img src="images/portfolio/1-small.png"
-                                        data-bp="images/portfolio/1.jpg" data-caption="<a class=&quot;link-light&quot; target=&quot;_blank&quot; href=&quot;https://dribbble.com/&quot;>
-    <h4 class=&quot;h5 mb-0&quot;>Web Design</h4>
-    <div>Dribbble.com</div>
-    </a>">
-                                    <figcaption>
-                                        <h4 class="h5 mb-0">Web Design</h4>
-
-                                    </figcaption>
-                                </figure>
-                            </a></div>
-                        <div class="grid-item" style="position: absolute; left: 0%; top: 400.438px;"><a
-                                href="https://github.com">
-                                <figure class="portfolio-item"><img src="images/portfolio/2-small.png"
-                                        data-bp="images/portfolio/2.jpg" data-caption="<a class=&quot;link-light&quot; target=&quot;_blank&quot; href=&quot;https://github.com/&quot;>
-    <h4 class=&quot;h5 mb-0&quot;>Web Development</h4>
-    <div>GitHub.com</div>
-    </a>">
-                                    <figcaption>
-                                        <h4 class="h5 mb-0">Web Development</h4>
-                                        <div>GitHub.com/ianchal07</div>
-                                    </figcaption>
-                                </figure>
-                            </a></div>
-                        <div class="grid-item" style="position: absolute; left: 0%; top: 948.276px;"><a
-                                href="https://soundcloud.com/">
-                                <figure class="portfolio-item"><img src="images/portfolio/sofwareY1.jpg"
-                                        data-bp="images/portfolio/3.jpg" data-caption="<a class=&quot;link-light&quot; target=&quot;_blank&quot; href=&quot;https://soundcloud.com/&quot;>
-    <h4 class=&quot;h5 mb-0&quot;>Audio Mixing</h4>
-    <div>Soundcloud.com</div>
-    </a>">
-                                    <figcaption>
-                                        <h4 class="h5 mb-0">Database Management</h4>
-
-                                    </figcaption>
-                                </figure>
-                            </a></div>
-                        <div class="grid-item" style="position: absolute; left: 0%; top: 1444.03px;"><a
-                                href="https://www.adobe.com/">
-                                <figure class="portfolio-item"><img src="images/portfolio/softwareX2.jpg"
-                                        data-bp="images/portfolio/4.jpg" data-caption="<a class=&quot;link-light&quot; target=&quot;_blank&quot; href=&quot;https://www.adobe.com/&quot;>
-    <h4 class=&quot;h5 mb-0&quot;>Video Editing</h4>
-    <div>Adobe After Effects</div>
-    </a>">
-                                    <figcaption>
-                                        <h4 class="h5 mb-0">Front-End Development</h4>
-
-                                    </figcaption>
-                                </figure>
-                            </a></div>
-                        <div class="grid-item" style="position: absolute; left: 0%; top: 2160.98px;"><a
-                                href="https://www.adobe.com/">
-                                <figure class="portfolio-item"><img src="images/portfolio/softwareH1.jpg"
-                                        data-bp="images/portfolio/5.jpg" data-caption="<a class=&quot;link-light&quot; target=&quot;_blank&quot; href=&quot;https://www.adobe.com/&quot;>
-    <h4 class=&quot;h5 mb-0&quot;>Photography</h4>
-    <div>Adobe Photoshop</div>
-    </a>">
-                                    <figcaption>
-                                        <h4 class="h5 mb-0">Software Development</h4>
-                                    </figcaption>
-                                </figure>
-                            </a></div>
-                        <div class="grid-item" style="position: absolute; left: 0%; top: 2868.7px;"><a
-                                href="https://www.android.com/">
-                                <figure class="portfolio-item"><img src="images/portfolio/softwareX4.jpg"
-                                        data-bp="images/portfolio/6.jpg" data-caption="<a class=&quot;link-light&quot; target=&quot;_blank&quot; href=&quot;https://www.android.com/&quot;>
-    <h4 class=&quot;h5 mb-0&quot;>App Development</h4>
-    <div>Android</div>
-    </a>">
-                                    <figcaption>
-                                        <h4 class="h5 mb-0">App Development</h4>
-                                    </figcaption>
-                                </figure>
-                            </a></div>
-                        <div class="grid-item" style="position: absolute; left: 0%; top: 3396.7px;"><a
-                                href="https://flutter.dev/">
-                                <figure class="portfolio-item"><img src="images/portfolio/softwareX3.jpg"
-                                        data-bp="images/portfolio/7.jpg" data-caption="<a class=&quot;link-light&quot; target=&quot;_blank&quot; href=&quot;https://flutter.dev/&quot;>
-    <h4 class=&quot;h5 mb-0&quot;>App Design</h4>
-    <div>Flutter</div>
-    </a>">
-                                    <figcaption>
-                                        <h4 class="h5 mb-0">website management</h4>
-
-                                    </figcaption>
-                                </figure>
-                            </a></div>
-                        <div class="grid-item" style="position: absolute; left: 0%; top: 4013.66px;"><a
-                                href="https://flutter.dev/">
-                                <figure class="portfolio-item"><img src="images/portfolio/softwareX1.jpg"
-                                        data-bp="images/portfolio/8.jpg" data-caption="<a class=&quot;link-light&quot; target=&quot;_blank&quot; href=&quot;https://flutter.dev/&quot;>
-    <h4 class=&quot;h5 mb-0&quot;>App Development</h4>
-    <div>Flutter</div>
-    </a>">
-                                    <figcaption>
-                                        <h4 class="h5 mb-0">full-stack Development</h4>
-                                    </figcaption>
-                                </figure>
-                            </a></div>
-                    </div>
-                </div>
-            </div>
-            <div class="section px-3 px-lg-4 pt-5" id="experience">
-                <div class="container-narrow">
-                    <div class="text-center mb-5">
-                        <h2 class="marker marker-center">Experience</h2>
-                    </div>
-                    <div class="row">
-                        <!-- NucleusTeq Software Engineer -->
-                        <div class="col-md-6">
-                            <div class="card mb-3">
-                                <div class="card-header d-flex justify-content-between">
-                                    <div>
-                                        <h3 class="h5 mb-1">Software Engineer</h3>
-                                        <div class="text-muted text-small">NucleusTeq Pvt. Ltd. | July 2023 – Present
-                                        </div>
-                                    </div>
-                                    <img src="images/services/software.svg" width="48" height="48" alt="Software icon">
-                                </div>
-                                <div class="card-body">
-                                    <p>• Working on NuoData project to modernize data warehouses using Java, React,
-                                        Python, and NoSQL databases.</p>
-                                    <p>• Utilizing Spring Boot, FastAPI, and SparkSQL for data analytics solutions.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- NucleusTeq Trainee -->
-                        <div class="col-md-6">
-                            <div class="card mb-3">
-                                <div class="card-header d-flex justify-content-between">
-                                    <div>
-                                        <h3 class="h5 mb-1">Software Engineer Trainee</h3>
-                                        <div class="text-muted text-small">NucleusTeq Pvt. Ltd. | Jan 2023 – June 2023
-                                        </div>
-                                    </div>
-                                    <img src="images/services/web-design.svg" width="48" height="48"
-                                        alt="Web design icon">
-                                </div>
-                                <div class="card-body">
-                                    <p>• Developed Blog Portal with role-based user registration, blog management, and
-                                        user engagement features.</p>
-                                    <p>• Implemented with Java, React, Spring Boot, and MongoDB.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="card mb-3 aos-init" data-aos="fade-right" data-aos-delay="100">
-                                <div class="card-header px-3 py-2">
-                                    <div class="d-flex justify-content-between">
-                                        <div>
-                                            <h3 class="h5 mb-1">Software Engineer Intern</h3>
-                                            <div class="text-muted text-small">Vedx India Pvt ltd <small>
-                                                    Nov 22 - Feb 23</small>
-                                            </div>
-                                        </div><img src="images/services/ui-ux.svg" width="48" height="48" alt="ui-ux">
-                                    </div>
-                                </div>
-                                <div class="card-body px-3 py-2">
-                                    <p> • Created a mass communication dashboard for sending Email/SMS/WhatsApp message
-                                        to many customer at once</p>
-                                    <p> • Created another dashboard for uploading thousands of entry of customer to send
-                                        promotion message</p>
-                                    <p> • Written queries for the internal MySQL database; allowing for easier data
-                                        retrieval and formatting using Hibernate.</p>
-                                    <p> • Created Rest API routes in the Spring Boot server that invoke the request
-                                        calls</p>
-                                    <p> • Implemented Authentication System Using NextJS and Spring Boot and worked
-                                        towards the overall UI improvement</p>
-                                    <p> • Implemented various functionalities using third-party libraries and micro
-                                        services such as the Quartz Scheduler, RabbitMQ, AWS for Email, Twilio, and
-                                        WhatsApp Business API.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="card mb-3 aos-init" data-aos="fade-left" data-aos-delay="300">
-                                <div class="card-header px-3 py-2">
-                                    <div class="d-flex justify-content-between">
-                                        <div>
-                                            <h3 class="h5 mb-1">Project</h3>
-                                            <div class="text-muted text-small">Heart Disease Predictor <small>Jul 23
-                                                    - Oct 23
-                                                </small>
-                                            </div>
-                                        </div><img src="images/services/app-development.svg" width="48" height="48"
-                                            alt="app development">
-                                    </div>
-                                </div>
-                                <div class="card-body px-3 py-2">
-                                    <p> • Website to predict the risk of heart problems in near future using machine
-                                        learning classifiers.</p>
-                                    <p> • Used sklearn API to train the models with dataset available on Kaggle. Django
-                                        to
-                                        evaluate predictions and develop RESTful routes.</p>
-                                    <p> • Used HTML, CSS and Bootstrap to display the risk factors with user friendly
-                                        design</p>
-                                    <p> • Got accuracy of 86.88%, which is more than previous proposed model (Artificial
-                                        Neural Network, accuracy : 77%) </p>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="card mb-3 aos-init" data-aos="fade-right" data-aos-delay="200">
-                                <div class="card-header px-3 py-2">
-                                    <div class="d-flex justify-content-between">
-                                        <div>
-                                            <h3 class="h5 mb-1">Project</h3>
-                                            <div class="text-muted text-small">Online Mitra: online social media website
-                                                <small>Feb 22 - Apr 22</small>
-                                            </div>
-                                        </div><img src="images/services/web-design.svg" width="48" height="48"
-                                            alt="web design">
-                                    </div>
-                                </div>
-                                <div class="card-body px-3 py-2">
-                                    <p> • Website to find friends online, across the world in secured way</p>
-                                    <p> • It helps user to chat with friends online using socket-io</p>
-                                    <p> • Used HTML, CSS and Bootstrap to create user friendly design.</p>
-                                    <p> • NodeJS as back-end to establish connection among front-end, back-end and
-                                        database.</p>
-                                    <p> • Used MySQL as database for storing data using SQL</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="card mb-3 aos-init" data-aos="fade-left" data-aos-delay="400">
-                                <div class="card-header px-3 py-2">
-                                    <div class="d-flex justify-content-between">
-                                        <div>
-                                            <h3 class="h5 mb-1">Project</h3>
-                                            <div class="text-muted text-small">myCrops: E-commerce website <small>Aug 21
-                                                    - Nov 21 </small>
-                                            </div>
-                                        </div><img src="images/services/full-stack.svg" width="48" height="48"
-                                            alt="full stack">
-                                    </div>
-                                </div>
-                                <div class="card-body px-3 py-2">
-                                    <p> • Developed an online F2C market place for retail products.</p>
-                                    <p> • Written restful API and Express middle ware to Implement the core logic for
-                                        the
-                                        Back-end.</p>
-                                    <p> • Implemented fully secured Authentication system using browser cookies and
-                                        sessions.</p>
-                                    <p> • Designed and developed beautiful and user-friendly UI in React.</p>
-                                    <p> • Used MongoDB as database to storing data using mongoose</p>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="section px-3 px-lg-4 pt-5" id="testimonials">
-                <div class="container-narrow">
-                    <div class="text-center mb-5">
-                        <h2 class="marker marker-center">Testimonials</h2>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6 mb-5 aos-init" data-aos="fade-right" data-aos-delay="100">
-                            <div class="d-flex ms-md-3"><span><i class="fas fa-2x fa-quote-left"></i></span><span
-                                    class="m-2">I had a great experience while working with Anchal. He has good problem
-                                    solving skills and is quick at learning new things. He is punctual and hardworking
-                                    and he is ready to go an extra mile to complete the work on time.</span></div>
-                            <div class="d-flex justify-content-end align-items-end">
-                                <div class="text-end me-2">
-                                    <div class="fw-bolder">Aman Agrawal</div>
-                                    <div class="text-small">Full-stack Developer</div>
-                                    <a class="nav-link" href="https://www.linkedin.com/in/amanag0101/" target="_blank"
-                                        title="LinkedIn"><i class="fab fa-linkedin"></i><span
-                                            class="menu-title sr-only">GitHub</span></a>
-                                </div><img class="me-md-3 rounded" src="images/testimonials/aman_image.jpeg" width="96"
-                                    height="96" alt="client 1">
-                            </div>
-                        </div>
-                        <div class="col-md-6 mb-5 aos-init" data-aos="fade-left" data-aos-delay="300">
-                            <div class="d-flex ms-md-3"><span><i class="fas fa-2x fa-quote-left"></i></span><span
-                                    class="m-2">Anchal displays exemplary professionalism and is able to take on
-                                    challenges. He learns quickly and is an asset to any team.
-                                    He is extremely resourceful and do a great job identifying solutions to problems on
-                                    you own before addressing them with anyone else.</span></div>
-                            <div class="d-flex justify-content-end align-items-end">
-                                <div class="text-end me-2">
-                                    <div class="fw-bolder">Ayush Gaur</div>
-                                    <div class="text-small">Software Development Engineer</div>
-                                    <a class="nav-link" href="https://www.linkedin.com/in/aayush-gour-a09091141/"
-                                        title="LinkedIn" target="
-                                    "><i class="fab fa-linkedin"></i><span class="menu-title sr-only">GitHub</span></a>
-                                </div><img class="me-md-3 rounded" src="images/testimonials/ayush_image.jpg" width="96"
-                                    height="96" alt="client 1">
-                            </div>
-                        </div>
-                        <div class="col-md-6 mb-5 aos-init" data-aos="fade-right" data-aos-delay="200">
-                            <div class="d-flex ms-md-3"><span><i class="fas fa-2x fa-quote-left"></i></span><span
-                                    class="m-2">Anchal is a diligent team-mate and generous. He is always considerate
-                                    of others' time when committing to project deadlines.
-                                    He is often insightful and help one's to see situations from another perspective.
-                                </span></div>
-                            <div class="d-flex justify-content-end align-items-end">
-                                <div class="text-end me-2">
-                                    <div class="fw-bolder">Somesh Dayama</div>
-                                    <div class="text-small">Trainee Software Engineer</div>
-                                    <a class="nav-link" href="https://www.linkedin.com/in/somesh-dayama-aa7045202/"
-                                        title="LinkedIn" target="
-                                    "><i class="fab fa-linkedin"></i><span class="menu-title sr-only">GitHub</span></a>
-                                </div>
-                                <img class="me-md-3 rounded" src="images/testimonials/somesh_image.jpg" width="96"
-                                    height="96" alt="client 1">
-                            </div>
-                        </div>
-                        <div class="col-md-6 mb-5 aos-init" data-aos="fade-left" data-aos-delay="400">
-                            <div class="d-flex ms-md-3"><span><i class="fas fa-2x fa-quote-left"></i></span><span
-                                    class="m-2">Anchal is a knowledgeable man and problem solver. He is quick to extend
-                                    his helping hand and makes a good team player.
-                                    He is always polite and remain calm, even under stressful circumstances.
-                                    He has a friendly demeanor that puts others instantly at ease.
-                                </span></div>
-                            <div class="d-flex justify-content-end align-items-end">
-                                <div class="text-end me-2">
-                                    <div class="fw-bolder">Saina Khan</div>
-                                    <div class="text-small">Fraud Prevention Representative</div>
-                                    <a class="nav-link" href="https://www.linkedin.com/in/miss-saina-khan-921b29211/"
-                                        target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i><span
-                                            class="menu-title sr-only">GitHub</span></a>
-                                </div><img class="me-md-3 rounded" src="images/testimonials/saina_image.jpg" width="96"
-                                    height="96" alt="client 1">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="section px-2 px-lg-4 pb-4 pt-5 mb-5" id="contact">
-                <div class="container-narrow">
-                    <div class="text-center mb-5">
-                        <h2 class="marker marker-center">Contact Me</h2>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6 aos-init" data-aos="zoom-in" data-aos-delay="100">
-                            <div class="bg-light my-2 p-3 pt-2">
-                                <form action="https://formspree.io/f/xrgvqbyk" method="POST">
-                                    <div class="form-group my-2">
-                                        <label for="name" class="form-label fw-bolder">Name</label>
-                                        <input class="form-control" type="text" id="name" name="name" required="">
-                                    </div>
-                                    <div class="form-group my-2">
-                                        <label for="email" class="form-label fw-bolder">Email</label>
-                                        <input class="form-control" type="email" id="email" name="_replyto" required="">
-                                    </div>
-                                    <div class="form-group my-2">
-                                        <label for="message" class="form-label fw-bolder">Message</label>
-                                        <textarea class="form-control" style="resize: none;" id="message" name="message"
-                                            rows="4" required=""></textarea>
-                                    </div>
-                                    <button class="btn btn-primary mt-2" type="submit">Send</button>
-                                </form>
-                            </div>
-                        </div>
-                        <div class="col-md-6 aos-init" data-aos="fade-left" data-aos-delay="300">
-                            <div class="mt-3 px-1">
-                                <div class="h5">Let’s talk how I can help you!</div>
-                                <p>If you like my work and want to avail my services then drop me a message using the
-                                    contact form. </p>
-
-                                <p>See you!</p>
-                            </div>
-                            <div class="col-md-5 offset-md-1 aos-init" data-aos="fade-left" data-aos-delay="100"><img
-                                    class="avatar img-fluid mt-2" src="images/avatar-2.jpg" width="400" height="400"
-                                    alt="Anchal Sharma"></div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero wrap" id="top">
+      <div class="hero-copy">
+        <p class="hello">Hello!</p>
+        <h1>I'm Anchal <span class="marker">Sharma</span></h1>
+        <p class="statement">I build AI that shows its work.</p>
+        <p class="lede">An AI answer is only useful if you can trust it. I build AI that answers business questions from a company's own data, checks every number before showing it, and is tested thoroughly before anyone relies on it.</p>
+        <ul class="socials" aria-label="Find me online">
+          <li><a href="https://www.instagram.com/ianchal07" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r="1" class="fill"/></svg></a></li>
+          <li><a href="https://www.linkedin.com/in/ianchal07/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 10.5V16M8 7.6v.1M11.5 16v-3.2c0-1.4 1-2.3 2.2-2.3s2.3.9 2.3 2.3V16M11.5 10.5V16"/></svg></a></li>
+          <li><a href="https://github.com/ianchal07" target="_blank" rel="noopener" aria-label="GitHub"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 19c-4 1.3-4-2-6-2.5M15 21v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.3 4.3 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12 12 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.3 4.3 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg></a></li>
+        </ul>
+        <div class="cta">
+          <a class="btn btn-primary" href="#contact">Get in touch <svg class="arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          <a class="btn btn-ghost" href="Anchal_sharma_resume.pdf" download data-track="resume-download">Download resume</a>
         </div>
-        <footer class="pt-4 pb-4 text-center bg-light">
-            <div class="container">
-                <div class="my-3">
-                    <div class="h4">Anchal Sharma</div>
-                    <p>Full-Stack Developer &amp; Software Development Engineer</p>
-                    <div class="social-nav">
-                        <nav role="navigation">
-                            <ul class="nav justify-content-center">
-                                <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/ianchal07"
-                                        title="Instagram"><i class="fab fa-instagram"></i><span
-                                            class="menu-title sr-only">Instagram</span></a></li>
-                                <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/ianchal07/"
-                                        title="LinkedIn"><i class="fab fa-linkedin"></i><span
-                                            class="menu-title sr-only">LinkedIn</span></a></li>
-                                <li class="nav-item"><a class="nav-link" href="https://github.com/ianchal07"
-                                        title="github"><i class="fab fa-github"></i><span
-                                            class="menu-title sr-only">github</span></a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-                <div class="text-small text-secondary">
-                    <div class="mb-1">© All rights reserved.</div>
-                </div>
-        </footer>
-    </div>
-    </div>
-    <div id="scrolltop"><a class="btn btn-secondary" href="#top"><span class="icon"><i
-                    class="fas fa-angle-up fa-x"></i></span></a></div>
-    <script>
-        const img = document.getElementById('avatar');
-        function changeAvatar() {
-            const n = Math.floor(Math.random() * 5); // 0 to 4
-            img.src = `images/avatar${n}.jpg`;
-        }
-        changeAvatar(); // initial load
-        setInterval(changeAvatar, 3000); // every 3 seconds
-    </script>
+      </div>
 
-    <script src="./scripts/imagesloaded.pkgd.min.js?ver=1.2.0"></script>
-    <script src="./scripts/masonry.pkgd.min.js?ver=1.2.0"></script>
-    <script src="./scripts/BigPicture.min.js?ver=1.2.0"></script>
-    <script src="./scripts/purecounter.min.js?ver=1.2.0"></script>
-    <script src="./scripts/bootstrap.bundle.min.js?ver=1.2.0"></script>
-    <script src="./scripts/aos.min.js?ver=1.2.0"></script>
-    <script src="./scripts/main.js?ver=1.2.0"></script>
-    <script src="./scripts/beacon.min.js"></script>
+      <figure class="trace" id="trace" aria-label="Example: how a question becomes a checked answer">
+        <div class="trace-head">
+          <span class="trace-q">What was revenue by region last month?</span>
+        </div>
+        <ol class="trace-steps">
+          <li class="step">
+            <div class="step-title"><span class="dot"></span>Understands the question</div>
+            <div class="step-body">Revenue, split by region, for last month.</div>
+          </li>
+          <li class="step">
+            <div class="step-title"><span class="dot"></span>Finds the right data</div>
+            <div class="step-body">Looks through the company's data for what holds the answer.</div>
+          </li>
+          <li class="step">
+            <div class="step-title"><span class="dot"></span>Builds the answer safely</div>
+            <div class="step-body">Follows fixed rules and access controls, so nothing is made up and people only see what they're allowed to.</div>
+          </li>
+          <li class="step">
+            <div class="step-title"><span class="dot"></span>Draws the chart</div>
+            <div class="step-body bars" aria-hidden="true">
+              <span style="--w:100%"><b>North</b></span>
+              <span style="--w:45%"><b>West</b></span>
+              <span style="--w:42%"><b>East</b></span>
+              <span style="--w:22%"><b>South</b></span>
+            </div>
+          </li>
+          <li class="step step-ok">
+            <div class="step-title"><span class="dot"></span>Checks every number</div>
+            <div class="step-body">4 of 4 numbers in the answer match the data.</div>
+          </li>
+        </ol>
+        <figcaption class="trace-foot">
+          <span>An illustrative example</span>
+          <button type="button" class="link-btn" id="replay">Replay</button>
+        </figcaption>
+      </figure>
+    </section>
 
+    <!-- WORK -->
+    <section class="section wrap" id="work">
+      <h2 class="section-title marker reveal">Selected work</h2>
+
+      <article class="case">
+        <div class="case-head">
+          <h3>An AI analyst for business teams</h3>
+          <p class="case-sub">Ask a question in plain English and get a chart or dashboard you can trust.</p>
+          <p class="case-meta">I led it end to end, from the AI behind it to the screen people use and the testing that proves it works.</p>
+        </div>
+
+        <div class="flow flow-5" role="img" aria-label="How it works: ask, find the data, build the answer, check it, show it">
+          <div class="flow-node"><span class="n">1</span>Ask a question</div>
+          <div class="flow-node"><span class="n">2</span>Find the right data</div>
+          <div class="flow-node flow-key"><span class="n">3</span>Build the answer safely</div>
+          <div class="flow-node flow-ok"><span class="n">4</span>Check every number</div>
+          <div class="flow-node"><span class="n">5</span>Show a chart or dashboard</div>
+        </div>
+
+        <div class="case-grid">
+          <div class="point">
+            <h4>Answers you can trust</h4>
+            <p>The AI never gets to improvise the final answer. It decides what's being asked, and fixed rules turn that into the result, so answers are consistent, secure and respect who is allowed to see what.</p>
+          </div>
+          <div class="point">
+            <h4>It checks its own work</h4>
+            <p>Every number in an answer is checked against the data before it's shown, so a made-up figure is caught before anyone sees it.</p>
+          </div>
+          <div class="point">
+            <h4>It asks when it isn't sure</h4>
+            <p>If a question could mean more than one thing, it asks, with suggested answers to pick from, instead of guessing.</p>
+          </div>
+          <div class="point">
+            <h4>It explains itself</h4>
+            <p>People can see each step the AI took to reach an answer, and re-check a saved answer later to confirm the figures still hold.</p>
+          </div>
+          <div class="point">
+            <h4>It works with any AI model</h4>
+            <p>Switching to a different AI model is a setting, not a rebuild.</p>
+          </div>
+        </div>
+      </article>
+
+      <div class="duo">
+        <article class="case case-small">
+          <h3>Teaching the AI a business</h3>
+          <p>A workspace where data owners connect their company's data and describe it in business terms: what each table means, who owns it, and how things relate. The AI can only use a data set once it's been described and approved.</p>
+        </article>
+        <article class="case case-small">
+          <h3>A conversation, not a query</h3>
+          <p>Saved conversations that remember earlier questions, so people can follow up naturally. Answers arrive as charts, tables or full dashboards.</p>
+        </article>
+      </div>
+
+      <article class="case case-wide">
+        <div class="case-head">
+          <h3>A no-code AI workbench</h3>
+          <p class="case-sub">Build, run and monitor machine learning and generative AI without writing code.</p>
+        </div>
+        <ul class="facts">
+          <li>Led and mentored a team of junior engineers.</li>
+          <li>Built the visual builder where people assemble machine learning and generative AI workflows by dragging and dropping steps.</li>
+          <li>Led a security upgrade that removed every critical vulnerability.</li>
+        </ul>
+      </article>
+    </section>
+
+    <!-- EVALUATION -->
+    <section class="section wrap" id="evaluation">
+      <h2 class="section-title marker reveal">How I know it works</h2>
+      <p class="section-lede reveal">A demo that works once proves little. Before the AI analyst answers real questions, it has to pass these tests.</p>
+
+      <div class="proof">
+        <figure class="ring-card reveal" aria-label="567 of 568 correctness tests pass">
+          <svg class="ring" viewBox="0 0 200 200" aria-hidden="true">
+            <circle class="ring-track" cx="100" cy="100" r="84"/>
+            <circle class="ring-fill" cx="100" cy="100" r="84" pathLength="100" style="--p:99.8"/>
+          </svg>
+          <div class="ring-label">
+            <strong><span class="count" data-to="567">567</span> of 568</strong>
+            <span>correctness tests pass</span>
+          </div>
+          <figcaption>Right answers, and safe refusals when someone tries to trick it.</figcaption>
+        </figure>
+
+        <div class="stat-grid">
+          <div class="stat reveal">
+            <strong class="count" data-to="1429">1,429</strong>
+            <span>test questions with known answers</span>
+          </div>
+          <div class="stat reveal">
+            <strong class="count" data-to="48">48</strong>
+            <span>kinds of tricky question, from vague to deliberately misleading</span>
+          </div>
+          <div class="stat reveal">
+            <strong class="count" data-to="6">6</strong>
+            <span>kinds of business the questions come from</span>
+          </div>
+          <div class="stat reveal">
+            <strong class="count" data-to="35">35</strong>
+            <span>findings reports, each explaining a lost answer and its fix</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW I WORK -->
+    <section class="section wrap" id="approach">
+      <h2 class="section-title marker reveal">How I work</h2>
+      <p class="section-lede reveal">The same five habits run through everything I ship. Each one has evidence behind it.</p>
+      <ol class="process" id="process">
+        <li class="reveal">
+          <span class="p-n">1</span>
+          <h3>Define what "right" looks like</h3>
+          <p>Before building, I write down what a correct result is. For the AI analyst, that became 1,429 questions with known answers.</p>
+        </li>
+        <li class="reveal">
+          <span class="p-n">2</span>
+          <h3>Plan for things going wrong</h3>
+          <p>What happens when a question is unclear, when someone lacks access, when a check fails? The system should ask, refuse or explain, never guess.</p>
+        </li>
+        <li class="reveal">
+          <span class="p-n">3</span>
+          <h3>Own it end to end</h3>
+          <p>I take features from the system behind them to the screen people use, so nothing gets lost between teams.</p>
+        </li>
+        <li class="reveal">
+          <span class="p-n">4</span>
+          <h3>Measure, then improve</h3>
+          <p>I test, find where it fails, and write it up. That produced 35 findings reports, each tied to a fix.</p>
+        </li>
+        <li class="reveal">
+          <span class="p-n">5</span>
+          <h3>Bring the team with me</h3>
+          <p>I mentor junior engineers, break work down and review it through to delivery.</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- JOURNEY -->
+    <section class="section wrap" id="experience">
+      <h2 class="section-title marker reveal">My journey</h2>
+      <p class="section-lede reveal">From studying computer science to leading AI products, with more responsibility at every step.</p>
+
+      <figure class="journey reveal" id="journey">
+        <svg viewBox="0 0 1000 320" role="img" aria-labelledby="journey-title">
+          <title id="journey-title">Career growth from 2017 to today: Barkatullah University, MANIT Bhopal, internship and traineeship, Software Engineer and then SDE-2 on NuoData, powered by NucleusTeq</title>
+          <g class="j-grid">
+            <line x1="40" y1="290" x2="960" y2="290"/>
+          </g>
+          <g class="j-years">
+            <text x="87" y="312">2017</text><text x="276" y="312">2019</text><text x="465" y="312">2021</text>
+            <text x="653" y="312">2023</text><text x="842" y="312">2025</text>
+          </g>
+          <path class="j-area" d="M87,260 H370 V215 H590 V170 H606 V150 H653 V115 H795 V60 H960 V290 H87 Z"/>
+          <path class="j-line" pathLength="100" d="M87,260 H370 V215 H590 V170 H606 V150 H653 V115 H795 V60 H960"/>
+          <g class="j-dots">
+            <circle cx="87" cy="260" r="7"/><circle cx="370" cy="215" r="7"/>
+            <circle cx="590" cy="170" r="7"/><circle cx="653" cy="115" r="7"/>
+            <circle class="now" cx="795" cy="60" r="9"/>
+          </g>
+          <g class="j-labels">
+            <text x="100" y="246">Barkatullah University</text>
+            <text x="383" y="201">MANIT Bhopal</text>
+            <text x="578" y="160" text-anchor="end">Intern, then NucleusTeq trainee</text>
+            <text x="640" y="104" text-anchor="end">Software Engineer, NuoData</text>
+            <text x="780" y="50" text-anchor="end">SDE-2, NuoData, leading AI products</text>
+          </g>
+        </svg>
+        <figcaption class="journey-note">NuoData is the enterprise data and AI platform powered by NucleusTeq.</figcaption>
+      </figure>
+
+      <div class="journey-cols">
+        <div>
+          <h3 class="col-title reveal">Work</h3>
+          <ol class="timeline">
+            <li class="reveal">
+              <div class="when">Jan 2025 to now</div>
+              <div class="what">
+                <h4>Software Engineer II (SDE-2), <a class="org" href="https://www.nuodata.ai/" target="_blank" rel="noopener">NuoData</a></h4>
+                <p class="org-line">Powered by <a class="org" href="https://www.nucleusteq.com/" target="_blank" rel="noopener">NucleusTeq</a></p>
+                <p>Leading AI products on the platform, and mentoring junior engineers.</p>
+              </div>
+            </li>
+            <li class="reveal">
+              <div class="when">Jul 2023 to Dec 2024</div>
+              <div class="what">
+                <h4>Software Engineer, <a class="org" href="https://www.nuodata.ai/" target="_blank" rel="noopener">NuoData</a></h4>
+                <p class="org-line">Powered by <a class="org" href="https://www.nucleusteq.com/" target="_blank" rel="noopener">NucleusTeq</a></p>
+                <p>Dashboards used by 5,000+ people, reusable building blocks that cut duplicated code by 30%, and secure sign-in.</p>
+              </div>
+            </li>
+            <li class="reveal">
+              <div class="when">Jan 2023 to Jun 2023</div>
+              <div class="what">
+                <h4>Software Engineer Trainee, <a class="org" href="https://www.nucleusteq.com/" target="_blank" rel="noopener">NucleusTeq</a></h4>
+                <p>User registration and a blog platform with separate permissions for admins and employees.</p>
+              </div>
+            </li>
+            <li class="reveal">
+              <div class="when">Nov 2022 to Feb 2023</div>
+              <div class="what">
+                <h4>Software Engineer Intern, Vedx India<!-- To link it, replace "Vedx India" above with: <a class="org" href="https://COMPANY-WEBSITE" target="_blank" rel="noopener">Vedx India</a> --></h4>
+                <p>Dashboards for sending email, SMS and WhatsApp campaigns to large customer lists.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+        <div>
+          <h3 class="col-title reveal">Education</h3>
+          <div class="edu-card edu-main reveal">
+            <div class="edu-years">2020 to 2023</div>
+            <h4>Master of Computer Applications</h4>
+            <p class="edu-school"><a class="org" href="https://www.manit.ac.in/" target="_blank" rel="noopener">Maulana Azad National Institute of Technology (MANIT), Bhopal</a></p>
+            <p>One of India's National Institutes of Technology. I started my first internship before graduating, and joined NucleusTeq straight out of the program.</p>
+          </div>
+          <div class="edu-card reveal">
+            <div class="edu-years">2017 to 2020</div>
+            <h4>B.Sc. in Computer Science</h4>
+            <p class="edu-school"><a class="org" href="https://www.bubhopal.ac.in/" target="_blank" rel="noopener">Barkatullah University, Bhopal</a></p>
+            <p>Where I learned to program and built my first web applications.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS AND AWARDS
+         This section stays hidden until it has at least one entry.
+         To add one, copy a template below, remove the comment markers
+         around it, and fill in your details. Delete the link line if
+         there is no credential or announcement page. -->
+    <section class="section wrap" id="recognition" hidden>
+      <h2 class="section-title marker reveal">Certifications and awards</h2>
+      <div class="recog">
+        <div class="recog-col" id="certifications">
+          <h3 class="col-title reveal">Certifications</h3>
+          <ul class="recog-list">
+            <!-- CERTIFICATION TEMPLATE
+            <li class="recog-item reveal">
+              <div class="recog-year">2025</div>
+              <div>
+                <h4>Certification name</h4>
+                <p class="recog-by">Issued by organisation</p>
+                <a class="recog-link" href="https://link-to-credential" target="_blank" rel="noopener">View credential</a>
+              </div>
+            </li>
+            -->
+          </ul>
+        </div>
+        <div class="recog-col" id="awards">
+          <h3 class="col-title reveal">Awards</h3>
+          <ul class="recog-list">
+            <!-- AWARD TEMPLATE
+            <li class="recog-item reveal">
+              <div class="recog-year">2025</div>
+              <div>
+                <h4>Award name</h4>
+                <p class="recog-by">Given by organisation</p>
+                <p class="recog-why">One line on what it was for.</p>
+              </div>
+            </li>
+            -->
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHAT I CAN DO -->
+    <section class="section wrap" id="bring">
+      <h2 class="section-title marker reveal">What I can do</h2>
+      <p class="section-lede reveal">A dependable AI product has many layers. I've built every one of them myself.</p>
+      <div class="services">
+        <div class="service reveal">
+          <img src="images/services/software.svg" width="72" height="72" alt="">
+          <h3>AI products</h3>
+          <p>AI that understands a question, finds the answer in a company's data, and asks when it isn't sure.</p>
+        </div>
+        <div class="service reveal">
+          <img src="images/services/frontend.svg" width="72" height="72" alt="">
+          <h3>Screens people enjoy</h3>
+          <p>Conversations, charts and dashboards that make an answer easy to read and easy to check.</p>
+        </div>
+        <div class="service reveal">
+          <img src="images/services/backend.svg" width="72" height="72" alt="">
+          <h3>Systems behind them</h3>
+          <p>Secure, reliable foundations where people see only what they're allowed to, and failures are clear.</p>
+        </div>
+        <div class="service reveal">
+          <img src="images/services/database.svg" width="72" height="72" alt="">
+          <h3>Answers you can trust</h3>
+          <p>Every number checked against the data, and tests that prove the whole thing works.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT + TESTIMONIALS -->
+    <section class="section wrap about" id="about">
+      <figure class="portrait" id="portrait">
+        <img class="on" src="images/avatar0.jpg" width="720" height="911" alt="Anchal Sharma">
+        <img src="images/avatar2.jpg" width="900" height="900" alt="">
+        <img src="images/avatar3.jpg" width="900" height="900" alt="">
+        <img src="images/avatar1.jpg" width="900" height="900" alt="">
+        <img src="images/avatar4.jpg" width="535" height="584" alt="">
+      </figure>
+      <div class="about-copy">
+        <h2 class="section-title marker reveal">Why</h2>
+        <p>I keep asking why a system gave the answer it did. That habit is behind most of my work: tracing where the right answer got lost, why a total came out wrong, why a number changed overnight. I'd rather build the check that catches a wrong answer than hope the model gets it right.</p>
+        <p>I started in full-stack web development and moved into AI systems, so I can take a feature from the system behind it to the screen someone uses.</p>
+
+        <div class="quotes">
+          <blockquote>
+            <p>He has good problem solving skills and is quick at learning new things. He is ready to go an extra mile to complete the work on time.</p>
+            <footer><img src="images/testimonials/aman_image.jpeg" alt="" width="40" height="40"><span><a href="https://www.linkedin.com/in/amanag0101/" target="_blank" rel="noopener">Aman Agrawal</a>, Full-stack Developer</span></footer>
+          </blockquote>
+          <blockquote>
+            <p>He is extremely resourceful and does a great job identifying solutions to problems on his own before addressing them with anyone else.</p>
+            <footer><img src="images/testimonials/ayush_image.jpg" alt="" width="40" height="40"><span><a href="https://www.linkedin.com/in/aayush-gour-a09091141/" target="_blank" rel="noopener">Ayush Gaur</a>, Software Development Engineer</span></footer>
+          </blockquote>
+          <blockquote>
+            <p>He is often insightful and helps others see situations from another perspective.</p>
+            <footer><img src="images/testimonials/somesh_image.jpg" alt="" width="40" height="40"><span><a href="https://www.linkedin.com/in/somesh-dayama-aa7045202/" target="_blank" rel="noopener">Somesh Dayama</a>, Software Engineer</span></footer>
+          </blockquote>
+          <blockquote>
+            <p>A knowledgeable problem solver who is quick to extend a helping hand. He remains calm, even under stressful circumstances.</p>
+            <footer><img src="images/testimonials/saina_image.jpg" alt="" width="40" height="40"><span><a href="https://www.linkedin.com/in/miss-saina-khan-921b29211/" target="_blank" rel="noopener">Saina Khan</a>, Fraud Prevention Representative</span></footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- NOW
+         Update this every few months. Change the date on the first line when you do. -->
+    <section class="section wrap now" id="now">
+      <div class="now-head">
+        <h2 class="section-title marker reveal">Now</h2>
+        <p class="now-date reveal"><span class="pulse" aria-hidden="true"></span>Updated September 2026</p>
+      </div>
+      <div class="now-grid">
+        <div class="now-item reveal">
+          <h3>Building</h3>
+          <p>The next round of improvements to the AI analyst, planned with the frontend team for the coming quarter.</p>
+        </div>
+        <div class="now-item reveal">
+          <h3>Learning</h3>
+          <p>How to build and test AI agents that take several steps on their own, safely.</p>
+        </div>
+        <div class="now-item reveal">
+          <h3>Leading</h3>
+          <p>Mentoring junior engineers as they take on more of the product.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section wrap contact" id="contact">
+      <div>
+        <h2 class="section-title marker reveal">Get in touch</h2>
+        <p>I'm open to AI engineer and applied AI roles, especially work on AI that has to be right.</p>
+        <!-- AVAILABILITY
+             Any row left empty (nothing between > and <) is hidden automatically. -->
+        <dl class="avail">
+          <div class="avail-row"><dt>Roles</dt><dd>AI Engineer, Applied AI Engineer</dd></div>
+          <div class="avail-row"><dt>Work style</dt><dd>Open to remote</dd></div>
+          <div class="avail-row"><dt>Based in</dt><dd>Indore, India</dd></div>
+          <div class="avail-row"><dt>Notice period</dt><dd></dd></div>
+        </dl>
+        <ul class="contact-list">
+          <li><a href="mailto:areleanchal@gmail.com" data-track="email-click">areleanchal@gmail.com</a></li>
+          <li><a href="https://www.linkedin.com/in/ianchal07/" target="_blank" rel="noopener" data-track="linkedin-click">linkedin.com/in/ianchal07</a></li>
+          <li><a href="https://github.com/ianchal07" target="_blank" rel="noopener" data-track="github-click">github.com/ianchal07</a></li>
+          <li><a href="Anchal_sharma_resume.pdf" download data-track="resume-download">Download resume (PDF)</a></li>
+        </ul>
+        <img class="hello-art" src="images/illustrations/hello3.svg" width="520" height="400" alt="">
+      </div>
+      <form class="form" action="https://formspree.io/f/xrgvqbyk" method="POST" data-track="contact-form-sent">
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" autocomplete="name" required>
+        <label for="email">Email</label>
+        <input id="email" name="_replyto" type="email" autocomplete="email" required>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        <button class="btn btn-primary" type="submit">Send message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="wrap foot-inner">
+      <span>Anchal Sharma</span>
+      <a href="#top">Back to top</a>
+    </div>
+  </footer>
+
+  <script src="scripts/site.js"></script>
 </body>
-
 </html>
